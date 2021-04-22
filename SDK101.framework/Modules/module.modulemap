@@ -1,0 +1,11 @@
+framework module SDK101 {
+  umbrella header "SDK101.h"
+
+  export *
+  module * { export * }
+}
+
+module SDK101.Swift {
+    header "SDK101-Swift.h"
+    requires objc
+}
